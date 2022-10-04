@@ -1,4 +1,10 @@
-type Todo = {
+// type Todo = {
+//   id: number;
+//   title: string;
+//   done: boolean;
+// }
+
+interface Todo {
   id: number;
   title: string;
   done: boolean;
