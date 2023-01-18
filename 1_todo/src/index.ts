@@ -48,10 +48,6 @@ function logFirstTodo(): object { //가장 첫번째 할일 목록을 반환
 
 function showCompleted(): object[] {
   return todoItems.filter(item => item.done);
-  // return todoItems.filter(function(item) {
-  //   if (item.done)
-  //     return item;
-  // })
 }
 
 // TODO: 아래 함수의 내용을 채워보세요. 아래 함수는 `addTodo()` 함수를 이용하여 2개의 새 할 일을 추가하는 함수입니다.
@@ -71,7 +67,6 @@ function addTwoTodoItems(): void {
   addTodo(item2);
 }
 
-// NOTE: 유틸 함수
 function log(): void {
   console.log(todoItems);
 }
