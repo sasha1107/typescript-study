@@ -10,7 +10,7 @@ const americano: Menu = {
     price: 4000, 
     onsale: true
 }
-console
+
 const lemonade: Menu = {
     name: "레몬에이드",
     price: 4500,
