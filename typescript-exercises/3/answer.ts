@@ -70,3 +70,4 @@ persons.forEach(logPerson);
 
 
 // Narrowing
+// https://github.com/sasha1107/TypeScript/wiki/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-CheatSheet#in-%EC%97%B0%EC%82%B0%EC%9E%90
